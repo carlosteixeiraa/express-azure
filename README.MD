@@ -46,3 +46,4 @@ git push -u azure master
 ### Como fazer alterações
 
 Se quiser alterar a aplicação em si, as portas, os links etc.. é nos ficheiros .js se quiser mudar algo na aparencia é mudar os ficheiros .css e .jade
+A porta padrão é 80 para que a aplicação corra no azure sem problemas.
