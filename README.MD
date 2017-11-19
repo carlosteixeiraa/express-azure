@@ -28,7 +28,7 @@ npm start
 
 Se apenas quiser fazer deploy para o azure basta criar uma Web APP em portal.azure.com e depois em Deployment Options escolher LocalGitHubRepo ou algo do genero, configurar as credenciais
 ```
-git remote add origin LINK QUE VAI ESTAR NO AZURE
+git remote add azure LINK QUE VAI ESTAR NO AZURE
 ```
 
 ```
@@ -37,6 +37,10 @@ git add .
 
 ```
 git commit -m "Upload ficheiros"
+```
+
+```
+git push -u azure master
 ```
 
 ## Como fazer alterações
